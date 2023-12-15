@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">promouis</string>
+    <string name="download_app_to_get_coins">Download this application to earn {coins_num} coins.</string>
+    <string name="download">Download</string>
+    <string name="receive_coins">Receive coins</string>
+    <string name="install_before_get_coin">You must download the selected application before you can get coins.</string>
+    <string name="downloaded_app_coins_message">You have just received {coins_num} coins because of downloading the application!</string>
+</resources>

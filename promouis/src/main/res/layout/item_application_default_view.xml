@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:background="@drawable/bg_ads_item"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/icon_ad_item_size"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_app_icon"
+            android:layout_width="@dimen/icon_ad_item_size"
+            android:layout_height="@dimen/icon_ad_item_size"
+            android:layout_marginEnd="@dimen/margin_small" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_app_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/item_description_text_size"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/item_description_text_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_download"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/item_button_height"
+            android:layout_marginStart="@dimen/item_earn_coins_margin"
+            android:layout_weight="3"
+            android:background="@drawable/bg_btn_earn_coins"
+            android:text="@string/download"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/item_button_text_size" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_get_coins"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/item_button_height"
+            android:layout_marginStart="@dimen/margin_small"
+            android:layout_weight="4"
+            android:background="@drawable/bg_btn_play"
+            android:text="@string/receive_coins"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/item_button_text_size" />
+    </LinearLayout>
+</LinearLayout>

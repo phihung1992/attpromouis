@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">promouis</string>
+    <string name="download_app_to_get_coins">Tải ứng dụng này và kiếm ngay {coins_num} xu.</string>
+    <string name="download">Tải</string>
+    <string name="receive_coins">Nhận xu</string>
+    <string name="install_before_get_coin">Bạn phải tải các ứng dụng trước, sau đó hãy trở lại và nhận xu.</string>
+    <string name="downloaded_app_coins_message">Bạn vừa có thêm {coins_num} xu từ việc tải ứng dụng!</string>
+</resources>

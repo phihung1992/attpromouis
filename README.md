@@ -1,5 +1,5 @@
-# AdmobManager
-An easy way to show Admob advertisement
+# ApplicationsView
+ApplicationsView show promo applications of ATT Solution team
 
 Gradle
 ------------
